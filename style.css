@@ -1,13 +1,14 @@
 * {
   box-sizing: border-box;
-  margin: 0;
   font-family: "Roboto", sans-serif;
+  margin: 0;
 }
 
 body {
   background-image: url(background.png);
   background-color: #252b42;
   background-repeat: no-repeat;
+  color: white;
 }
 
 #navbar {
@@ -21,7 +22,6 @@ body {
   display: flex;
   flex-flow: column wrap;
   align-items: center;
-  color: white;
   margin-bottom: 30px;
 }
 
@@ -58,7 +58,7 @@ body {
   width: 100%;
 }
 
-.trial-button {
+#first-container .trial-button {
   height: 65px;
   width: 236px;
   border-radius: 35px;
@@ -70,4 +70,129 @@ body {
   line-height: 33px;
   letter-spacing: 0.1px;
   margin-bottom: 50px;
+}
+
+#second-container {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  margin-bottom: 30px;
+  gap: 50px;
+}
+
+#second-container .text-content {
+  margin: 80px 50px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  text-align: center;
+}
+
+#second-container h3 {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.1px;
+  padding: 10px;
+}
+
+#second-container h2 {
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  padding: 10px;
+}
+
+#second-container h4 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  padding: 10px;
+}
+
+#second-container .containers {
+  margin: 0 74px 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 75px;
+  padding-bottom: 18px;
+}
+
+#second-container .items-container {
+  margin: 18px 7.5px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#second-container .headline {
+  display: flex;
+  align-items: center;
+}
+
+#second-container p {
+  padding: 10px 0px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.2px;
+}
+
+#third-container {
+  margin: 30px 20px;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  gap: 59px;
+}
+
+#third-container .text-content {
+  margin: 50px 30px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  text-align: center;
+}
+
+#third-container h2 {
+  font-size: 46px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  line-height: 57px;
+  padding: 10px;
+}
+
+#third-container h4 {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  line-height: 20px;
+  padding: 10px;
+}
+
+
+#third-container .trial-button {
+  height: 65px;
+  width: 236px;
+  border-radius: 35px;
+  border: none;
+  color: white;
+  background-color: #38a3f1;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.1px;
+}
+
+#third-container .img-content {
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+#third-container .img-content img {
+  width: 100%;
 }
