@@ -364,3 +364,88 @@ body {
   line-height: 33px;
   letter-spacing: 0.1px;
 }
+
+#sixth-container {
+  margin: 10px 28px 0;
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 80px;
+}
+
+#sixth-container h2 {
+  padding: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 57px;
+  text-align: center;
+  letter-spacing: 0.2px;
+}
+
+#sixth-container .items-container {
+  margin: 0 31px;
+  padding: 15px 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 51px;
+}
+
+#sixth-container .dropbox-img {
+  margin: 0 34px;
+}
+
+#sixth-container h4 {
+  padding: 8.5px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13.5256px;
+  line-height: 17px;  
+  text-align: center;
+  letter-spacing: 0.16907px;
+}
+
+#sixth-container .avatar-content {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  gap: 10.99px;
+}
+
+#sixth-container .avatar-content div{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: center;
+}
+
+#sixth-container h6 {
+  font-weight: 700;
+  font-size: 10.1442px;
+  line-height: 15px;  
+  letter-spacing: 0.0845349px;
+}
+
+#sixth-container p {
+  font-weight: 400;
+  font-size: 12.6802px;
+  line-height: 23px;
+  letter-spacing: 0.16907px;
+}
+
+#sixth-container .trial-button {
+  height: 65px;
+  width: 280px;
+  border-radius: 35px;
+  border: none;
+  color: white;
+  background-color: #38a3f1;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.1px;
+}
