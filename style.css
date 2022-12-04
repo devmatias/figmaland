@@ -517,9 +517,9 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 22px;
-  line-height: 33px;  
+  line-height: 33px;
   letter-spacing: 0.1px;
-  color: #252B42;
+  color: #252b42;
 }
 
 #seventh-container .items h6 {
@@ -542,10 +542,10 @@ body {
   font-size: 55px;
   line-height: 66px;
   letter-spacing: 0.2px;
-  color: #252B42;
+  color: #252b42;
 }
 
-#seventh-container .price div{
+#seventh-container .price div {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -555,9 +555,9 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 22px;
-  line-height: 33px;  
+  line-height: 33px;
   letter-spacing: 0.1px;
-  color: #252B42;
+  color: #252b42;
 }
 
 #seventh-container .items .trial-button {
@@ -581,7 +581,7 @@ body {
   align-items: flex-start;
   padding: 40px;
   gap: 30px;
-  background: linear-gradient(39.97deg, #EF2779 0.79%, #7834BE 79.29%);
+  background: linear-gradient(39.97deg, #ef2779 0.79%, #7834be 79.29%);
   border: 1px solid #dedede;
   box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
   border-radius: 10px;
@@ -595,7 +595,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 22px;
-  line-height: 33px;  
+  line-height: 33px;
   letter-spacing: 0.1px;
 }
 
@@ -617,7 +617,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 22px;
-  line-height: 33px;  
+  line-height: 33px;
   letter-spacing: 0.1px;
 }
 
@@ -627,11 +627,141 @@ body {
   width: 255px;
   border-radius: 35px;
   border: none;
-  color: #EF2779;
+  color: #ef2779;
   background-color: white;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 16px;
   letter-spacing: 0.2px;
+}
+
+#eighth-container {
+  background-color: #d6ebff;
+}
+
+#contact {
+  margin: 0 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 149px 0;
+  gap: 50px;
+  color: #252b42;
+}
+
+#eighth-container .text-content {
+  margin: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 7px;
+}
+
+#eighth-container h2 {
+  padding: 10px;
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 57px;
+  text-align: center;
+  letter-spacing: 0.2px;
+}
+
+#eighth-container h4 {
+  padding: 10px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.2px;
+}
+
+#eighth-container .social-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
+}
+
+#eighth-container .items-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 18px 0;
+  margin: 0 40px;
+}
+
+#eighth-container .items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+#eighth-container h6 {
+  padding: 10px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.1px;
+}
+
+#eighth-container .contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 45px;
+  padding: 52px 49px;
+  background: #ffffff;
+  border: 1px solid #dddddd;
+  box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+  border-radius: 20px;
+}
+
+#eighth-container .contact-form input {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  width: 280px;
+  height: 54px;
+  background: #f5f5f5;
+  border: 1px solid #e8e8e8;
+  border-radius: 39px;
+  padding: 19px 20px;
+}
+
+#eighth-container h3 {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.1px;
+}
+
+#eighth-container .contact-form textarea {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  background: #f5f5f5;
+  border: 1px solid #e8e8e8;
+  padding: 23px 20px;
+  width: 280px;
+  height: 193px;
+}
+
+#eighth-container .contact-form button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+  border: none;
+  width: 145px;
+  height: 52px;
+  background: #ef2779;
+  border-radius: 35px;
+  align-self: flex-start;
+  color: white;
+  cursor: pointer;
 }
