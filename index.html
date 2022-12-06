@@ -16,54 +16,68 @@
 
 <body>
     <header>
-        <section id="navbar">
+        <section id="navbar" class="flex-row-center">
             <img src="images/logo.png" id="logo" alt="logo-design">
+            <div class="navbar-list">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Product</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <div class="subscribe">
+                    <input type="email" placeholder="Your Email">
+                    <button type="button">Subscribe</button>
+                </div>
+            </div>
             <img src="images/sidebar.png" id="sidebar" alt="sidebar">
         </section>
     </header>
     <main>
         <section id="first-container">
-            <div class="text-content">
-                <h2>Lightning fast prototyping</h2>
-                <h4>Most calendars are designed for teams.
+            <div class="text-content flex-column-center">
+                <h2 class="pad-10">Lightning fast prototyping</h2>
+                <h4 class="pad-10">Most calendars are designed for teams.
                     Slate is designed for freelancers</h4>
             </div>
-            <div class="img-content">
-                <img src="images/browser.png" alt="browser">
+            <div class="img-content flex-row-center">
+                <img src="images/browser.png" id="browser" alt="browser">
+                <img src="images/browser2.png" id="browser2" alt="browser">
             </div>
             <button type="button" class="trial-button">
                 Try For Free
             </button>
         </section>
-        <section id="second-container">
-            <div class="text-content">
-                <h3>At your fingertips</h3>
-                <h2>Features</h2>
-                <h4>Most calendars are designed for teams. Slate is designed for freelancers</h4>
+        <section id="second-container" class="flex-column-center">
+            <div class="text-content flex-column-center">
+                <h3 class="pad-10">At your fingertips</h3>
+                <h2 class="pad-10">Features</h2>
+                <h4 class="pad-10">Most calendars are designed for teams. Slate is designed for freelancers</h4>
             </div>
-            <div class="containers">
-                <div class="items-container">
-                    <div class="headline">
+            <div class="containers flex-column-center">
+                <div class="items-container flex-column-center">
+                    <div class="headline flex-row-center">
                         <img src="images/ic-restaurant-menu.png" alt="icon restaurant menu">
-                        <h3>The best products start with Sketch</h3>
+                        <h3 class="pad-10">The best products start with Sketch</h3>
                     </div>
                     <div class="items-text">
                         <p>Slate helps you see how many more days you need to work to reach your financial goal.</p>
                     </div>
                 </div>
-                <div class="items-container">
-                    <div class="headline">
+                <div class="items-container flex-column-center">
+                    <div class="headline flex-row-center">
                         <img src="images/ic-restaurant-menu.png" alt="icon restaurant menu">
-                        <h3>Fastest way to organize</h3>
+                        <h3 class="pad-10">Fastest way to organize</h3>
                     </div>
                     <div class="items-text">
                         <p>Slate helps you see how many more days you need to work to reach your financial goal.</p>
                     </div>
                 </div>
-                <div class="items-container">
-                    <div class="headline">
+                <div class="items-container flex-column-center">
+                    <div class="headline flex-row-center">
                         <img src="images/ic-restaurant-menu.png" alt="icon restaurant menu">
-                        <h3>Work better together</h3>
+                        <h3 class="pad-10">Work better together</h3>
                     </div>
                     <div class="items-text">
                         <p>Slate helps you see how many more days you need to work to reach your financial goal.</p>
@@ -71,10 +85,10 @@
                 </div>
             </div>
         </section>
-        <section id="third-container">
-            <div class="text-content">
-                <h2>Lightning fast prototyping</h2>
-                <h4>Most calendars are designed for teams.
+        <section id="third-container" class="flex-column-center">
+            <div class="text-content flex-column-center">
+                <h2 class="pad-10">Lightning fast prototyping</h2>
+                <h4 class="pad-10">Most calendars are designed for teams.
                     Slate is designed for freelancers</h4>
             </div>
             <button type="button" class="trial-button">
@@ -84,40 +98,40 @@
                 <img src="images/macbook.png" alt="browser">
             </div>
         </section>
-        <section id="fourth-container">
-            <div class="text-content">
+        <section id="fourth-container" class="flex-column-center">
+            <div class="text-content flex-column-center">
                 <h3>At your fingertips</h3>
-                <h2>Newsletter</h2>
+                <h2 class="pad-10">Newsletter</h2>
             </div>
-            <div class="newsletter-content">
+            <div class="newsletter-content flex-column-center">
                 <h3>Subscribe to our Newsletter</h3>
                 <p>Available exclusivery on Figmaland</p>
-                <div class="mailing">
+                <div class="mailing flex-column-center">
                     <input type="email" class="email-input" placeholder="Your Email">
                     <button type="button">Subscribe</button>
                 </div>
             </div>
         </section>
-        <section id="fifth-container">
-            <div class="text-content">
-                <h2>Partners</h2>
-                <h4>Most calendars are designed for teams. Slate is designed for freelancers</h4>
+        <section id="fifth-container" class="flex-column-center">
+            <div class="text-content flex-column-center">
+                <h2 class="pad-10">Partners</h2>
+                <h4 class="pad-10">Most calendars are designed for teams. Slate is designed for freelancers</h4>
             </div>
-            <div class="items-container">
-                <div class="clients">
-                    <h6>Client Name</h6>
+            <div class="items-container flex-column-center">
+                <div class="clients flex-column-center">
+                    <h6 class="pad-10">Client Name</h6>
                     <img src="images/logos_apiary.png" alt="image apiary">
                     <p>Slate helps you see how many more days you need to work to reach your financial goal for the
                         month and year.</p>
                 </div>
-                <div class="clients">
-                    <h6>Client Name</h6>
+                <div class="clients flex-column-center">
+                    <h6 class="pad-10">Client Name</h6>
                     <img src="images/logos_android-icon.png" alt="image android">
                     <p>Slate helps you see how many more days you need to work to reach your financial goal for the
                         month and year.</p>
                 </div>
-                <div class="clients">
-                    <h6>Client Name</h6>
+                <div class="clients flex-column-center">
+                    <h6 class="pad-10">Client Name</h6>
                     <img src="images/logos_basecamp.png" alt="image basecamp">
                     <p>Slate helps you see how many more days you need to work to reach your financial goal for the
                         month and year.</p>
@@ -127,13 +141,13 @@
                 Try For Free
             </button>
         </section>
-        <section id="sixth-container">
-            <h2>Testimonials</h2>
-            <div class="items-container">
+        <section id="sixth-container" class="flex-column-center">
+            <h2 class="pad-10">Testimonials</h2>
+            <div class="items-container flex-column-center">
                 <img src="images/dropbox.png" class="dropbox-img" alt="image dropbox">
                 <h4>Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to
                     plan their schedule.</h4>
-                <div class="avatar-content">
+                <div class="avatar-content flex-row-center">
                     <img src="images/avatar.png" alt="avatar">
                     <div>
                         <h6>Organize across</h6>
@@ -145,15 +159,15 @@
                 More Testimonials
             </button>
         </section>
-        <section id="seventh-container">
+        <section id="seventh-container" class="flex-column-center">
             <div class="text-content">
-                <h2>Pricing</h2>
-                <h4>Most calendars are designed for teams. Slate is designed for freelancers</h4>
+                <h2 class="pad-10">Pricing</h2>
+                <h4 class="pad-10">Most calendars are designed for teams. Slate is designed for freelancers</h4>
             </div>
-            <div class="items-container">
+            <div class="items-container flex-column-center">
                 <div class="items">
                     <div class="heading">
-                        <h3>Free</h3>
+                        <h3 class="pad-top-bot-3">Free</h3>
                         <h6>Organize across all apps by hand</h6>
                     </div>
                     <div class="price">
@@ -167,7 +181,7 @@
                 </div>
                 <div class="items-colour">
                     <div class="heading">
-                        <h3>Free</h3>
+                        <h3 class="pad-top-bot-3">Free</h3>
                         <h6>Organize across all apps by hand</h6>
                     </div>
                     <div class="price">
@@ -181,7 +195,7 @@
                 </div>
                 <div class="items">
                     <div class="heading">
-                        <h3>Free</h3>
+                        <h3 class="pad-top-bot-3">Free</h3>
                         <h6>Organize across all apps by hand</h6>
                     </div>
                     <div class="price">
@@ -196,31 +210,31 @@
             </div>
         </section>
         <section id="eighth-container">
-            <div id="contact">
-                <div class="text-content">
-                    <h2>Contact Us</h2>
-                    <h4>Most calendars are designed for teams. Slate is designed for freelancers</h4>
+            <div id="contact" class="flex-column-center">
+                <div class="text-content flex-column-center">
+                    <h2 class="pad-10">Contact Us</h2>
+                    <h4 class="pad-10">Most calendars are designed for teams. Slate is designed for freelancers</h4>
                 </div>
-                <div class="social-content">
+                <div class="social-content flex-row-center">
                     <img src="images/twitter.png" alt="twitter logo">
                     <img src="images/facebook.png" alt="facebook logo">
                     <img src="images/linkedin.png" alt="linkedin logo">
                 </div>
                 <div class="items-container">
-                    <div class="items">
+                    <div class="items flex-row-center">
                         <img src="images/map.png" alt="mail icon">
-                        <h6>6386 Spring St undefined Anchorage, Georgia 12473 United States</h6>
+                        <h6 class="pad-10">6386 Spring St undefined Anchorage, Georgia 12473 United States</h6>
                     </div>
-                    <div class="items">
+                    <div class="items flex-row-center">
                         <img src="images/celphone.png" alt="mail icon">
-                        <h6>(843) 555-0130</h6>
+                        <h6 class="pad-10">(843) 555-0130</h6>
                     </div>
-                    <div class="items">
+                    <div class="items flex-row-center">
                         <img src="images/mail.png" alt="mail icon">
-                        <h6>willie.jennings@example.com</h6>
+                        <h6 class="pad-10">willie.jennings@example.com</h6>
                     </div>
                 </div>
-                <form class="contact-form" action="">
+                <form class="contact-form flex-column-center" action="">
                     <h3>Contact Us</h3>
                     <input type="text" name="Name" placeholder="Your Name">
                     <input type="email" name="Email" placeholder="Your Email">
@@ -228,9 +242,40 @@
                     <button type="button">Send</button>
                 </form>
             </div>
-
-
         </section>
+        <footer class="flex-column-center">
+            <div class="text-content flex-column-center">
+                <h3>Pages</h3>
+                <ul class="flex-column-center">
+                    <li><a href="#"></a>Eleanor Edwards</li>
+                    <li><a href="#"></a>Ted Robertson</li>
+                    <li><a href="#"></a>Annete Russel</li>
+                    <li><a href="#"></a>Jennie Mckinney</li>
+                    <li><a href="#"></a>Gloria Richards</li>
+                </ul>
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13413.823034968078!2d-83.66453780020328!3d32.8066871273643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f136c51d5f8157%3A0x6684bc10ec4f10e7!2zR2XDs3JnaWEsIEVVQQ!5e0!3m2!1spt-BR!2sbr!4v1670174308252!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="items-container">
+                <div class="items flex-row-center">
+                    <img src="images/map.png" alt="map icon">
+                    <h6 class="pad-10">6386 Spring St undefined Anchorage, Georgia 12473 United States</h6>
+                </div>
+                <div class="items flex-row-center">
+                    <img src="images/celphone.png" alt="cellphone icon">
+                    <h6 class="pad-10">(843) 555-0130</h6>
+                </div>
+                <div class="items flex-row-center">
+                    <img src="images/mail.png" alt="mail icon">
+                    <h6 class="pad-10">willie.jennings@example.com</h6>
+                </div>
+                <div class="social-content">
+                    <img src="images/twitter.png" alt="twitter logo">
+                    <img src="images/facebook.png" alt="facebook logo">
+                    <img src="images/linkedin.png" alt="linkedin logo">
+                </div>
+            </div>
+
+        </footer>
     </main>
 
 </body>
