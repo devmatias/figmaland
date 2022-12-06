@@ -247,7 +247,7 @@ h6 {
 }
 
 #fourth-container {
-  margin: 110px 0 80px;
+  padding: 80px 0;
   gap: 59px;
 }
 
@@ -740,6 +740,10 @@ footer .social-content {
   #third-container .img-content {
     padding: 36px;
     margin: 0;
+  }
+
+  #fourth-container {
+    padding: 80px 0 70px;
   }
 }
 
