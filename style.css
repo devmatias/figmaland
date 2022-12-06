@@ -216,6 +216,7 @@ h6 {
 #third-container .text-content {
   margin: 50px 30px 0;
   gap: 7px;
+  max-width: 318px;
   text-align: center;
 }
 
@@ -235,7 +236,8 @@ h6 {
 
 #third-container .img-content {
   margin-bottom: 50px;
-  width: 100%;
+  max-width: 1070px;
+  min-width: 200px;
 }
 
 #third-container .img-content img {
@@ -719,6 +721,25 @@ footer .social-content {
   #second-container .items-container {
     margin: 0;
     width: 255px;
+  }
+
+  #third-container {
+    margin: 30px 20px 80px;
+    gap: 40px;
+  }
+
+  #third-container .text-content {
+    max-width: 358px;
+    padding: 20px;
+  }  
+
+  #third-container .trial-button {
+    margin: 20px;
+  }
+  
+  #third-container .img-content {
+    padding: 36px;
+    margin: 0;
   }
 }
 
