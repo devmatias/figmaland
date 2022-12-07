@@ -69,24 +69,70 @@ h6 {
 }
 
 #navbar {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
   justify-content: space-between;
   padding: 16px;
 }
 
-#navbar .navbar-list {
-  display: none;
-  gap: 44px;
+#sidebar {
+  cursor: pointer;
 }
 
-#navbar .navbar-list ul {
-  display: flex;
+#sidebar:focus {
+  outline: none;
+}
+
+#nav-ul {
+  display: none;
   list-style-type: none;
   gap: 21px;
   align-items: center;
   padding: 0;
 }
 
-#navbar .navbar-list ul li a {
+#nav-ul.show {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  position: absolute;
+  width: 200px;
+  border-radius: 10px;
+  background: #252b42;
+
+}
+
+#nav-ul.show a {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+}
+
+#nav-ul.show a:hover {
+  transition: 0.5s;
+  background-color: #374754;
+  color: black;
+}
+
+#navbar .navbar-list {
+  display: none;
+  gap: 44px;
+  
+}
+
+#navbar .navbar-list.show {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+#navbar .navbar-list ul a  {
+  text-decoration: none;
+}
+
+#navbar .navbar-list ul a li {
   text-decoration: none;
   color: white;
   padding: 10px;
@@ -127,6 +173,7 @@ h6 {
   line-height: 16px;
   letter-spacing: 0.2px;
   color: #ef2779;
+  cursor: pointer;
 }
 
 #first-container {
@@ -172,6 +219,7 @@ h6 {
   line-height: 33px;
   letter-spacing: 0.1px;
   margin-bottom: 50px;
+  cursor: pointer;
 }
 
 #second-container {
@@ -197,6 +245,7 @@ h6 {
 
 #second-container .items-container {
   margin: 18px 7.5px 0;
+  max-width: 255px;
 }
 
 #second-container p {
@@ -232,6 +281,7 @@ h6 {
   font-size: 22px;
   line-height: 33px;
   letter-spacing: 0.1px;
+  cursor: pointer;
 }
 
 #third-container .img-content {
@@ -301,6 +351,7 @@ h6 {
   font-size: 16px;
   line-height: 16px;
   letter-spacing: 0.2px;
+  cursor: pointer;
 }
 
 #fifth-container {
@@ -369,6 +420,7 @@ h6 {
   font-size: 22px;
   line-height: 33px;
   letter-spacing: 0.1px;
+  cursor: pointer;
 }
 
 #sixth-container {
@@ -430,6 +482,7 @@ h6 {
   font-size: 22px;
   line-height: 33px;
   letter-spacing: 0.1px;
+  cursor: pointer;
 }
 
 #seventh-container {
@@ -504,6 +557,7 @@ h6 {
   font-size: 16px;
   line-height: 16px;
   letter-spacing: 0.2px;
+  cursor: pointer;
 }
 
 #seventh-container .items-colour {
@@ -541,6 +595,7 @@ h6 {
   font-size: 16px;
   line-height: 16px;
   letter-spacing: 0.2px;
+  cursor: pointer;
 }
 
 #eighth-container {
@@ -644,11 +699,17 @@ h6 {
 }
 
 footer {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
   margin: 126px 30px;
   gap: 55px;
 }
 
 footer .text-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 0;
   padding: 0px;
   gap: 15px;
@@ -656,6 +717,9 @@ footer .text-content {
 }
 
 footer .text-content ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 0;
   gap: 16px;
 }
@@ -670,10 +734,16 @@ footer .text-content li {
   letter-spacing: 0.2px;
 }
 
+footer .text-content li  a{
+  text-decoration: none;
+  color: white;
+}
+
 footer iframe {
   width: 100%;
   height: 247px;
   border-radius: 22px;
+  max-width: 472px;
 }
 
 footer .items-container {
@@ -697,6 +767,24 @@ footer .social-content {
 }
 
 @media screen and (min-width: 992px) {
+  #navbar {
+    padding: 0;
+    margin: 0 40px;
+    height: 156px;
+  }
+
+  #navbar .navbar-list {
+    display: flex;
+  }
+
+  #nav-ul {
+    display: flex;
+  }
+
+  #sidebar {
+    display: none;
+  }
+
   #first-container {
     margin-bottom: 0;
     display: flex;
@@ -758,7 +846,7 @@ footer .social-content {
 
   #second-container .items-container {
     margin: 0;
-    width: 255px;
+    
   }
 
   #third-container {
@@ -913,25 +1001,32 @@ footer .social-content {
     width: 100%;
     height: 126px;
   }
-  
+
 }
 
 @media screen and (min-width: 1200px) {
-  #navbar {
-    padding: 0;
-    margin: 0 40px;
-    height: 156px;
+
+
+    
+  footer {
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 120px auto;
+    max-width: 1032px;
   }
-
-  #navbar .navbar-list {
-    display: flex;
+  
+  footer .text-content ul {
+    align-items: flex-start;
   }
-
-  #sidebar {
-    display: none;
+  
+  footer .items-container {
+    margin: 17px 0;
+    width: 264px;
   }
-
-
+  
+  footer .items {
+    gap: 10px;
+  }
 }
 
 @media screen and (min-width: 1440px) {

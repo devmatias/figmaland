@@ -16,22 +16,22 @@
 
 <body>
     <header>
-        <section id="navbar" class="flex-row-center">
+        <section id="navbar">
             <img src="images/logo.png" id="logo" alt="logo-design">
+            <img src="images/sidebar.png" id="sidebar" alt="sidebar">
             <div class="navbar-list">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Product</a></li>
-                    <li><a href="#">Pricing</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
+                <ul id="nav-ul">
+                    <a href="#first-container"><li>Home</li></a>
+                    <a href="#second-container"><li>Product</li></a>
+                    <a href="#third-container"><li>About</li></a>
+                    <a href="#seventh-container"><li>Pricing</li></a>
+                    <a href="#eighth-container"><li>Contact</li></a>
                 </ul>
                 <div class="subscribe">
                     <input type="email" placeholder="Your Email">
                     <button type="button">Subscribe</button>
                 </div>
             </div>
-            <img src="images/sidebar.png" id="sidebar" alt="sidebar">
         </section>
     </header>
     <main>
@@ -236,9 +236,12 @@
                 </div>
                 <div class="responsive-items">
                     <div class="social-content flex-row-center">
-                        <img src="images/twitter.png" alt="twitter logo">
-                        <img src="images/facebook.png" alt="facebook logo">
-                        <img src="images/linkedin.png" alt="linkedin logo">
+                        <a href="https://twitter.com" target="_blank"><img src="images/twitter.png"
+                                alt="twitter logo"></a>
+                        <a href="https://facebook.com" target="_blank"><img src="images/facebook.png"
+                                alt="facebook logo"></a>
+                        <a href="https://linkedin.com" target="_blank"><img src="images/linkedin.png"
+                                alt="linkedin logo"></a>
                     </div>
                     <div class="items-container">
                         <div class="items flex-row-center">
@@ -264,18 +267,21 @@
                 </div>
             </div>
         </section>
-        <footer class="flex-column-center">
-            <div class="text-content flex-column-center">
+        <footer id="footer">
+            <div class="text-content">
                 <h3>Pages</h3>
-                <ul class="flex-column-center">
-                    <li><a href="#"></a>Eleanor Edwards</li>
-                    <li><a href="#"></a>Ted Robertson</li>
-                    <li><a href="#"></a>Annete Russel</li>
-                    <li><a href="#"></a>Jennie Mckinney</li>
-                    <li><a href="#"></a>Gloria Richards</li>
+                <ul>
+                    <li><a href="#">Eleanor Edwards</a></li>
+                    <li><a href="#">Ted Robertson</a></li>
+                    <li><a href="#">Annete Russel</a></li>
+                    <li><a href="#">Jennie Mckinney</a></li>
+                    <li><a href="#">Gloria Richards</a></li>
                 </ul>
             </div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13413.823034968078!2d-83.66453780020328!3d32.8066871273643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f136c51d5f8157%3A0x6684bc10ec4f10e7!2zR2XDs3JnaWEsIEVVQQ!5e0!3m2!1spt-BR!2sbr!4v1670174308252!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13413.823034968078!2d-83.66453780020328!3d32.8066871273643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f136c51d5f8157%3A0x6684bc10ec4f10e7!2zR2XDs3JnaWEsIEVVQQ!5e0!3m2!1spt-BR!2sbr!4v1670174308252!5m2!1spt-BR!2sbr"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
             <div class="items-container">
                 <div class="items flex-row-center">
                     <img src="images/map.png" alt="map icon">
@@ -290,15 +296,17 @@
                     <h6 class="pad-10">willie.jennings@example.com</h6>
                 </div>
                 <div class="social-content">
-                    <img src="images/twitter.png" alt="twitter logo">
-                    <img src="images/facebook.png" alt="facebook logo">
-                    <img src="images/linkedin.png" alt="linkedin logo">
+                    <a href="https://twitter.com" target="_blank"><img src="images/twitter.png" alt="twitter logo"></a>
+                    <a href="https://facebook.com" target="_blank"><img src="images/facebook.png"
+                            alt="facebook logo"></a>
+                    <a href="https://linkedin.com" target="_blank"><img src="images/linkedin.png"
+                            alt="linkedin logo"></a>
                 </div>
             </div>
 
         </footer>
     </main>
-
+    <script src="script.js"></script>
 </body>
 
 </html>
